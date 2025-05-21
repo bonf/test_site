@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.3'
+gem 'rails', '6.1.7'
+gem 'json', '>= 2.6'
 # Use postgresql as the database for Active Record
 # gem 'pg', '~> 0.15'
 gem 'sqlite3'
@@ -25,7 +26,6 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
 
 # authentication and authorisation
 gem 'clearance'
@@ -33,7 +33,7 @@ gem 'clearance'
 gem 'pry', '>= 0.14.1'
 gem 'pry-rails'
 # test data
-gem 'faker'
+gem 'faker', '>= 2.20'
 # image upload
 gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 4.3', '>= 4.3.6'
