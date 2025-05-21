@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'slim-rails'
-
+gem 'globalid', '~> 1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -30,6 +30,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # authentication and authorisation
 gem 'clearance'
 # debugging
+gem 'pry', '>= 0.14.1'
 gem 'pry-rails'
 # test data
 gem 'faker'
